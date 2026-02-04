@@ -38,10 +38,9 @@ export default function App() {
       >
         <Band />
       </Physics>
-      <Environment background blur={0}>
-        <color attach="background" args={["black"]} />
+      <Environment background={false}> 
         <Lightformer
-          intensity={2}
+          intensity={25}
           color="white"
           position={[0, -1, 5]}
           rotation={[0, 0, Math.PI / 3]}
